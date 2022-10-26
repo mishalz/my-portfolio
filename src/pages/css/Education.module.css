@@ -1,0 +1,40 @@
+#education {
+  left: 200%;
+  padding: 0px 20px;
+  display: flex;
+  color: var(--clean);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(21, 108, 158);
+  animation: focusPage 0.5s forwards;
+  animation-delay: 1s;
+}
+.info {
+  margin: 20px 0px;
+  max-width: 100%;
+}
+.text-container {
+  max-width: 70%;
+}
+#education h1 {
+  color: var(--sunshine);
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: 400;
+}
+#education h3 {
+  font-size: 1.5em;
+  font-weight: 100;
+}
+
+#education h4 {
+  font-size: 1em;
+  font-style: italic;
+  font-weight: 600;
+}
+@keyframes focusPage {
+  100% {
+    left: 10%;
+  }
+}

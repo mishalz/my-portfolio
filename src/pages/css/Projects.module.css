@@ -1,0 +1,57 @@
+#projects h1 {
+  color: var(--fresh);
+  font-size: 2.5em;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+#projects {
+  left: 200%;
+  height: 100%;
+  padding: 0px 20px;
+  display: flex;
+  color: var(--clean);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--clean);
+  animation: focusPage 0.5s forwards;
+  animation-delay: 1s;
+}
+.projects-container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  max-width: 80%;
+  overflow: scroll;
+  overflow-y: hidden;
+}
+.scroll {
+  position: fixed;
+  right: 13%;
+  font-size: 2em;
+  top: 50%;
+  font-weight: 500;
+  opacity: 0.8;
+  color: #000000be;
+  z-index: 1;
+  animation: scrolltext 1s linear 4s infinite;
+}
+@keyframes focusPage {
+  100% {
+    left: 10%;
+  }
+}
+@keyframes scrolltext {
+  0% {
+    right: 13%;
+  }
+  40% {
+    right: 13.5%;
+  }
+  75% {
+    right: 12.9%;
+  }
+  80% {
+    right: 13%;
+  }
+}

@@ -1,0 +1,9 @@
+body,
+.page {
+  width: 88vw;
+  height: 100vh;
+  padding: 0;
+  position: absolute;
+  transition: all 0.8s cubic-bezier(0.54, 0.35, 0.29, 0.99);
+  font-family: "Courier New", Courier, monospace;
+}

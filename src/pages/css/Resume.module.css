@@ -1,0 +1,55 @@
+#resume {
+  height: 100%;
+  left: 200%;
+  padding: 0px 20px;
+  display: flex;
+  color: var(--clean);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(54, 103, 83);
+  animation: focusPage 0.5s forwards;
+  animation-delay: 1s;
+}
+.resume-opts {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+#resume h1 {
+  font-size: 2.5em;
+  font-weight: 400;
+  color: var(--sunshine);
+}
+#resume p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.resume {
+  max-height: 300px;
+}
+.viewButton,
+#resume button {
+  text-decoration: none;
+  color: var(--clean);
+  border: 1px solid var(--clean);
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 5px;
+  transition: all 0.2s ease-in;
+  background-color: transparent;
+  font-family: 'Courier New', Courier, monospace;
+}
+.viewButton:hover,
+#resume button:hover {
+  background-color: var(--clean);
+  color: rgb(54, 103, 83);
+}
+
+@keyframes focusPage {
+  100% {
+    left: 10%;
+  }
+}
