@@ -13,8 +13,8 @@ const Educationpage = () => {
         </h1>
         <div className={styles.info}>
           <h3>National University of Sciences and Technology, Islamabad.</h3>
-          <h4>2019 – current</h4>
-          <p>Bachelor of Engineering in Software Engineering</p>
+          <h4>2019 – 2023</h4>
+          <p>Bachelors of Engineering in Software Engineering</p>
         </div>
         <hr />
         <div className={styles.info}>
