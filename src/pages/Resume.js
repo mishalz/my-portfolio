@@ -11,7 +11,7 @@ const Resume = () => {
         // Setting various property values
         let alink = document.createElement("a");
         alink.href = fileURL;
-        alink.download = "UpdatedCV.pdf";
+        alink.download = "CV.pdf";
         alink.click();
       });
     });
